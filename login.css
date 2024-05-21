@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-color: #211d1b;
+  color: #ffffff;
+}
+
+.login-container {
+  width: 650px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgba(60, 40, 31, 0.8);
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, button {
+  width: 70%;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+input {
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #d96200;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #c3ab8c;
+}
+
+
+
+a {
+  color: #ff7700;
+  text-decoration: none;
+}
+
+.new-account a {
+  font-weight: bold;
+}

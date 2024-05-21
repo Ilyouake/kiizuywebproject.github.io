@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="reserve.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Reservation</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Restaurant Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="index.html">Reserve a table</a></li>
+            </ul>
+        </nav>
+        
+        <div>
+            <a href="login.html">
+                <button>Login</button>
+            </a>
+            <a href="registor.html">
+                <button>Sign Up</button>
+            </a>
+            </div>
+
+    </header>
+    <section class="banner">
+        <h1>BOOK YOUR TABLE NOW</h1>
+        <div class="card-container">
+            <div class="card-img">
+                <img src="" alt="">
+            </div>
+
+            <div class="card-content">
+                <h3>Reservation</h3>
+                <form>
+                    <div class="form-row">
+                        <select name="days">
+                            <option value="day select"> Select Day</option>
+                            <option value="monday">Monday</option>
+                            <option value="tuesday">Tuesday</option>
+                            <option value="wednesday">Wednesday</option>
+                            <option value="thursday">Thursday</option>
+                            <option value="friday">Friday</option>
+                            <option value="saturday">Saturday</option>
+                            <option value="sunday">Sunday</option>
+                        </select>
+
+                        <select name="hours">
+                            <option value="select-hour">Select Hour</option>
+                            <option value="10">10: 00</option>
+                            <option value="11">11: 00</option>
+                            <option value="12">12: 00</option>
+                            <option value="13">13: 00</option>
+                            <option value="14">14: 00</option>
+                            <option value="15">15: 00</option>
+                            <option value="16">16: 00</option>
+                            <option value="17">17: 00</option>
+                            <option value="18">18: 00</option>
+                            <option value="19">19: 00</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" placeholder="Full Name">
+                    </div>
+                    <div class="form-row">
+                        <input type="text" placeholder="Phone Number">
+                    </div>
+                    <div class="form-row">
+                        <input type="number" placeholder="How many people" min="1" max="8">
+                        <input type="submit" value="BOOK TABLE">
+                    </div>
+
+
+
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

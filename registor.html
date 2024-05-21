@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome!</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <script src="script/registor.js"></script>
+</head>
+<body>
+  <div class="login-container">
+    <div class="logo">
+      <img src="img/logo.png" width="200px" height="150px" alt="Logo">
+    </div>
+    <h1>Create an Account</h1>
+    <form action="index.html" method="post">
+      <div class="input-field">
+        <label for="username">First Name</label>
+        <input type="text" id="username" name="username" placeholder="Bran">
+        <span class="error-message" id="username-error"></span>
+      </div>
+      <div class="input-field">
+        <label for="lastname">Last Name</label>
+        <input type="text" id="surname" name="surname" placeholder="Kelvin">
+        <span class="error-message" id="lastname-error"></span>
+      </div>
+      <div class="input-field">
+        <label for="email">Email or mobile number</label>
+        <input type="text" id="email" name="email" placeholder="username@mail.ru">
+        <span class="error-message" id="email-error"></span>
+      </div>
+      <div class="input-field">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="password">
+        <span class="error-message" id="password-error"></span>
+      </div>
+      <div class="checkbox_rg">
+        <div class="check_rgbtn">
+          <input type="checkbox" id="remember-me" name="remember_me">
+       </div>
+        <div class="text_rg">
+          <label for="remember-me"> I have reviewed and agree to Swipe's Privacy Policy</label>
+        </div>
+      </div>
+      <a href="index.html">
+        <button type="submit">Create</button>
+       </a>
+    </form>
+    <p class="new-account">Do you have an account? <a>Log In</a></p>
+  </div>
+  <script src="script/register.js"></script>
+</body>
+</html>
